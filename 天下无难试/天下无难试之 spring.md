@@ -98,7 +98,7 @@ Spring 应用一般有以下组件：
 
 Spring 框架的核心是 Spring 容器。容器创建对象，将它们装配在一起，配置它们并管理它们的完整生命周期。Spring 容器使用依赖注入来管理组成应用程序的组件。容器通过读取提供的配置元数据来接收对象进行实例化，配置和组装的指令。该元数据可以通过 XML，Java 注解或 Java 代码提供。
 
-![img](.\images\spring_2.jpg)
+![img](https://github.com/WindHolder/notebook/blob/master/%E5%A4%A9%E4%B8%8B%E6%97%A0%E9%9A%BE%E8%AF%95/images/spring_2.jpg)
 
 #### 2.2. 什么是依赖注入？
 
@@ -268,7 +268,7 @@ spring bean 容器的生命周期流程如下：
 - 如果 bean 实现 DisposableBean 接口，当 spring 容器关闭时，会调用 destory()。
 
 - 如果为 bean 指定了 destroy 方法（的 destroy-method 属性），那么将调用它。
-  ![img](.\images\spring_3.jpg)
+  ![img](https://github.com/WindHolder/notebook/blob/master/%E5%A4%A9%E4%B8%8B%E6%97%A0%E9%9A%BE%E8%AF%95/images/spring_3.jpg)
 
 #### 3.5. 什么是 spring 的内部 bean？
 
@@ -443,7 +443,7 @@ Spring DAO 使得 JDBC，Hibernate 或 JDO 这样的数据访问技术更容易�
 
 #### 5.2. 列举 Spring DAO 抛出的异常。
 
-![img](.\images\spring_4.jpg)
+![img](https://github.com/WindHolder/notebook/blob/master/%E5%A4%A9%E4%B8%8B%E6%97%A0%E9%9A%BE%E8%AF%95/images/spring_4.jpg)
 
 #### 5.3. spring JDBC API 中存在哪些类？
 
@@ -491,7 +491,7 @@ AOP 的工作重心在于如何将增强编织目标对象的连接点上, 这�
 - 如何在 advice 中编写切面代码.
   可以简单地认为, 使用 @Aspect 注解的类就是切面.
 
-![img](.\images\spring_5.jpg)
+![img](https://github.com/WindHolder/notebook/blob/master/%E5%A4%A9%E4%B8%8B%E6%97%A0%E9%9A%BE%E8%AF%95/images/spring_5.jpg)
 
 #### 6.3. 什么是切点（JoinPoint）
 
@@ -543,7 +543,7 @@ Advice + Target Object = Proxy
 
 为了创建一个 advice 对象而链接一个 aspect 和其它应用类型或对象，称为编织（Weaving）。在 Spring AOP 中，编织在运行时执行。请参考下图：
 
-![img](.\images\spring_6.jpg)
+![img](https://github.com/WindHolder/notebook/blob/master/%E5%A4%A9%E4%B8%8B%E6%97%A0%E9%9A%BE%E8%AF%95/images/spring_6.jpg)
 
 ### 7. MVC
 
@@ -555,7 +555,7 @@ Spring Web MVC 框架提供 模型-视图-控制器 架构和随时可用的组�
 
 DispatcherServlet 的工作流程可以用一幅图来说明：
 
-![img](.\images\spring_7.jpg)
+![img](https://github.com/WindHolder/notebook/blob/master/%E5%A4%A9%E4%B8%8B%E6%97%A0%E9%9A%BE%E8%AF%95/images/spring_7.jpg)
 
 - 向服务器发送 HTTP 请求，请求被前端控制器 DispatcherServlet 捕获。
 - DispatcherServlet 根据 -servlet.xml 中的配置对请求的 URL 进行解析，得到请求资源标识符（URI）。然后根据该 URI，调用 HandlerMapping 获得该 Handler 配置的所有相关的对象（包括 Handler 对象以及 Handler 对象对应的拦截器），最后以HandlerExecutionChain 对象的形式返回。
