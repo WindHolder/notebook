@@ -44,7 +44,7 @@ Spring Framework 现在几乎已成为 Java Web 开发的标配框架。那么�
 
 #### 1.5. Spring Framework 中有多少个模块，它们分别是什么？
 
-![img](.\images\spring_1.jpg)
+![img](https://github.com/WindHolder/notebook/blob/master/%E5%A4%A9%E4%B8%8B%E6%97%A0%E9%9A%BE%E8%AF%95/images/spring_1.jpg)
 
 - Spring 核心容器 – 该层基本上是 Spring Framework 的核心。它包含以下模块：
   Spring Core
